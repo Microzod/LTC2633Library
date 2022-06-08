@@ -1,0 +1,94 @@
+##########################################################
+##        keywords.txt file for LTC2633 Library.        ##
+##########################################################
+# 	KEYWORD_TOKEN 	#Use for                             #
+# 	KEYWORD1(bold orange) 		# classes, datatypes     #
+# 	KEYWORD2(none orange) 		# methods & functions    #
+# 	KEYWORD3(none orange) 		# structures             #
+# 	LITERAL1(none cyan) 		# constants, enums,      #
+# 	LITERAL2(none orange) 		# ?, variables           #
+##########################################################
+##                   Class (KEYWORD1)                   ##
+##########################################################
+
+LTC2633Library	KEYWORD1
+A	KEYWORD1
+B	KEYWORD1
+ALL	KEYWORD1
+
+##########################################################
+##                 Functions (KEYWORD2)                 ##
+##########################################################
+
+writeDAC	KEYWORD2
+writeCommand	KEYWORD2
+write	KEYWORD2
+writeVoltage	KEYWORD2
+writeUpdateBoth	KEYWORD2
+writeInputRegister	KEYWORD2
+updateDACRegister	KEYWORD2
+setI2CStandardClockSpeed	KEYWORD2
+setI2CFastClockSpeed	KEYWORD2
+useInternalReference	KEYWORD2
+useExternalReference	KEYWORD2
+powerDown	KEYWORD2
+powerDownChip	KEYWORD2
+CA0PinToGND	KEYWORD2
+CA0PinToFLOAT	KEYWORD2
+CA0PinToVCC	KEYWORD2
+CA0PinToGLOBAL	KEYWORD2
+increamentOutput	KEYWORD2
+decreamentOutput	KEYWORD2
+resetOutput	KEYWORD2
+
+##########################################################
+##                   Enums (LITERAL1)                   ##
+##########################################################
+
+LTC2633_WRITE_INPUT_N	LITERAL1
+LTC2633_UPDATE_DAC_N	LITERAL1
+LTC2633_WRITE_INPUT_N_UPDATE_DAC_ALL	LITERAL1
+LTC2633_WRITE_INPUT_N_UPDATE_DAC_N	LITERAL1
+LTC2633_POWER_DOWN_N	LITERAL1
+LTC2633_POWER_DOWN_CHIP	LITERAL1
+LTC2633_SELECT_INTERNAL_REFERENCE	LITERAL1
+LTC2633_SELECT_EXTERNAL_REFERENCE	LITERAL1
+LTC2633_NO_OPERATION	LITERAL1
+
+LTC2633_CA0_GND	LITERAL1
+LTC2633_CA0_FLOAT	LITERAL1
+LTC2633_CA0_VCC	LITERAL1
+LTC2633_CA0_GLOBAL	LITERAL1
+LTC2633_GND	LITERAL1
+LTC2633_FLOAT	LITERAL1
+LTC2633_VCC	LITERAL1
+LTC2633_GLOBAL	LITERAL1
+
+LTC2633_12BIT	LITERAL1
+LTC2633_10BIT	LITERAL1
+LTC2633_8BIT	LITERAL1
+
+LTC2633_DAC_A	LITERAL1
+LTC2633_DAC_B	LITERAL1
+LTC2633_DAC_ALL	LITERAL1
+
+
+
+
+
+##########################################################
+##                Data Types (LITERAL1)                 ##
+##########################################################
+
+LTC2633_COMMAND	LITERAL2
+LTC2633_I2C_ADDRESS	LITERAL2
+LTC2633_RESOLUTION	LITERAL2
+LTC2633_DAC_selection	LITERAL2
+LTC2633	LITERAL2
+
+
+##########################################################
+##                Variables (LITERAL2)                  ##
+##########################################################
+
+
